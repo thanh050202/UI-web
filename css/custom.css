@@ -22,9 +22,12 @@
     font-size: 28px;
     font-family: 'Livvic';
 }
-.navbar a:active{
+.navbar .active, a:hover{
   text-shadow: rgb(0 195 26) 3px 0 8px;
+  background-color: transparent;
+  color: #d3ffc5 !important;
 }
+
 .icon-seacrh{
     position: absolute !important;
     right: 30px;
