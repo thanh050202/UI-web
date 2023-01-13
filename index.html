@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Livvic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Paytone One' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./javascript/custom.js"></script>
+    <link href="./css/customSlide.css" rel="stylesheet">
+</head>
+<script src="./javascript/bootstrap.min.js"></script>
+
+<body class="" style="background-color: #D5E8D6; justify-content: center;">
+    <nav class="navbar pr-5 pl-5 pr-5 navbar-fixed-top fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="margin-left: 50px;">
+            <img src="./Image/logo-01 2.png" />
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse row " id="navbarSupportedContent" style="padding-right: 65px;">
+            <ul class="navbar-nav mr-auto pl-lg-5 col-lg-7" style="font-size: 600;">
+                <li class="nav-item col-lg-4">
+                    <a class="nav-link" href="#" id="TrangChu">Trang chủ<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item col-lg-4">
+                    <a class="nav-link" href="#" id="NhatTin">Nhặt tin</a>
+                </li>
+                <li class="nav-item col-lg-4">
+                    <a class="nav-link" href="#" id="NhatGom">Nhặt kiến</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 col-lg-5 col-12">
+                <input class="mr-sm-2 input-search" type="search">
+                <img class="icon-seacrh" src="./Image/seacrh-icon.png">
+            </form>
+        </div>
+    </nav>
+    <div class="banner">
+
+        <div class="content w-50">
+            <span style="font-size: 36px">Nhặt môi trường</span></br>
+            <span style="font-size: 50px;">Vì một tương lai moi người đều có ý thức và kiến thức về tái chế</span>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade fade-hold">
+                <img src="./Image/banner1.png" style="width:100%; height: 706px;">
+            </div>
+
+            <div class="mySlides fade fade-hold">
+                <img src="./Image/banner2.png" style="width:100%; height: 706px;">
+            </div>
+
+            <div class="mySlides fade fade-hold">
+                <img src="./Image/banner3.png" style="width:100%; height: 706px;">
+            </div>
+
+            <div style="text-align:center" class="dot-container">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+        <br>
+
+
+        <br>
+
+    </div>
+
+    <div id="contentTrangChu">
+        <div class="row content1  mr-0">
+            <div class="left ml-4 col-lg-6 col-12 row justify-content-md-center mb-4">
+                <img class="col-lg-5 col-5" style="margin: 0px 20px;" src="./Image/img1.png">
+                <div class="col-lg-6 col-6 ">
+                    <h3>Bảo vệ môi trường từ những điều nhỏ nhặt</h3>
+                    <p>Không chỉ là những hành động lón lao, môi trường là cuộc sống, chỉ cần vài hành động nhỏ ta
+                        đã có
+                        thể chung ta giữ Trái Đất xanh.</p>
+                    <p style="font-style: italic;">Cùng <b>nhặt</b> hành động!</p>
+                </div>
+            </div>
+            <div class="right col-lg-6 col-12 row justify-content-center">
+                <img class="col-lg-5 col-5  col-lg-offset-2" src="./Image/img2.png">
+                <img class="col-lg-5 col-5" src="./Image/img3.png">
+            </div>
+        </div>
+        <iframe width="100%" height="700"
+            src="https://www.youtube.com/embed/q0qHbzLmYts?list=TLGGJDE823sY35MxMTAxMjAyMw"
+            title="Tuyên ngôn về PRO Việt Nam" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <div class="content2 row">
+            <img class="col-lg-6 col-12" style="margin-top: 75px; margin-left: 92px;" src="./Image/iPhone 14 Pro.png">
+            <img src="./Image/phone.png" class="offset-lg-3" style="position: absolute;">
+            <div class="col-lg-4 col-12 ml-5" style="margin-top:163px">
+                <h3>Giới thiệu về <b style="font-size: 45px;">nhặt</b></h3>
+                <p>Nhặt là ứng dụng phổ cấp kiến thức về tái chế một cách đơn giản và dễ hiểu để có thể mang đến
+                    những
+                    kiến
+                    thức đến mọi đối tượng.</p>
+                <p style="font-style: italic;">Hãy <b>nhặt</b> nào!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contentNhatTin" style="display: none;">
+        <div class="content3 row">
+            <img src="./Image/image content3.png" class="col-lg-5 offset-lg-1 col-12">
+            <div class="col-lg-6 col-12 text-center">
+                <p style="font-family: 'Livvic'; font-size: 40px; font-weight: 600; padding-top: 200px;">Luôn cập nhập
+                    những thông tin, tin
+                    tức về các hoạt động về tái chế
+                    nhanh nhất cùng Là Lá
+                </p>
+            </div>
+        </div>
+        <div class="content4 row">
+            <div class="col-12 text-center">
+                <h1 style="font-family: 'Paytone One';font-style: normal;
+                font-weight: 400;
+                font-size: 48px;color: #2A6049; margin-bottom: 50px;">NHẶT TIN</h1>
+            </div>
+            <div class="sliderX ml-4 mr-4 col-lg-12 text-center">
+
+                <div class="slidesX">
+                    <div id="slide-1">
+                        <img src="./Image/Cùng Nhau Nhặt 1.png">
+                        <div style="padding: 15px;">
+                            <span>12/09 - khi hết sự kiện</span>
+                            <h3>Tìm hiểu về môi trường biển</h3>
+                            <p>Đến với chương trình “Tìm hiểu về môi trường biển” bạn sẽ có cơ hội tìm hiểu thực trạng
+                                rác
+                                thải và môi trường biển cũng như tìm hiểu hệ sinh thái đại dương đa dạng và phong phú.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="slide-2">
+                        <img src="./Image/cung nhau nhat 2.png">
+                        <div style="padding: 15px;">
+                            <span>1/10 - khi hết sự kiện</span>
+                            <h3>Trạm Tái Sinh</h3>
+                            <p>Trạm Tái Sinh là dự án công nghệ trong hành trình "Sải bước phong cách xanh" của
+                                Aquafina, là
+                                nơi tái sinh vòng đời mới cho chai nhựa cho fan yêu môi trường trong năm 2022.</p>
+                        </div>
+                    </div>
+                    <div id="slide-3">
+                        <img src="./Image/cung nhau nhat 3.png">
+                        <div style="padding: 15px;">
+                            <span>25/10 - khi hết sự kiện</span>
+                            <h3>Cùng nhau nhặt tái chế</h3>
+                            <p>Là chương trình dành riêng cho giáo viên giúp khơi dậy sự sáng tạo và trí tưởng tượng của
+                                học
+                                sinh bằng cách tạo thêm nhiều sự kiện thú vị cho các bé. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contentNhatGom" style="display: none;">
+        <div class="content5 row justify-content-around w-100 mt-5">
+            <div class="col-lg-3 col-12 NhatKien">
+                <span>Học thêm những tip bảo vệ môi trường cùng nhặt </span>
+                <img src="./Image/img4.png" style="margin-top: -30px;">
+            </div>
+            <div class="col-lg-3 col-12 NhatKien">
+                <span>Vô cùng đơn giản, dễ hiểu, đa dạng đối tượng</span>
+                <img src="./Image/img5.png">
+            </div>
+            <div class="col-lg-3 col-12 NhatKien">
+                <span>Những kiến thức bổ ích nhưng không phức tạp</span>
+                <img src="./Image/img6.png" style="margin-top: -45px;">
+            </div>
+            <div style="border-bottom:3px solid #B5DAB9" class="col-11"></div>
+        </div>
+        <div class="content6 row">
+            <div class="col-12 text-center">
+                <h1 style="font-family: 'Paytone One';font-style: normal;
+                font-weight: 400;
+                font-size: 48px;color: #2A6049; margin-bottom: 50px;">NHẶT KIẾN</h1>
+            </div>
+            <div class="sliderY ml-4 mr-4 col-lg-12 text-center">
+
+                <div class="slidesY">
+                    <div id="slide-1">
+                        <img src="./Image/nhatkien1.png">
+                        <div style="padding: 15px;">
+
+                            <h3>Những tác hại của rác thải với sinh vật biển.</h3>
+                            <p>Đến với chương trình “Tìm hiểu về môi trường biển” bạn sẽ có cơ hội tìm hiểu thực trạng
+                                rác
+                                thải và môi trường biển cũng như tìm hiểu hệ sinh thái đại dương đa dạng và phong phú.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="slide-2">
+                        <img src="./Image/nhatkien2.png">
+                        <div style="padding: 15px;">
+
+                            <h3>Cách phân loại rác thải cho người mới bắt đầu.</h3>
+                            <p>Trạm Tái Sinh là dự án công nghệ trong hành trình "Sải bước phong cách xanh" của
+                                Aquafina, là
+                                nơi tái sinh vòng đời mới cho chai nhựa cho fan yêu môi trường trong năm 2022.</p>
+                        </div>
+                    </div>
+                    <div id="slide-3">
+                        <img src="./Image/nhatkien3.png">
+                        <div style="padding: 15px;">
+
+                            <h3>Pin và những điều bạn chưa biết.</h3>
+                            <p style="top: 65% !important">Là chương trình dành riêng cho giáo viên giúp khơi dậy sự
+                                sáng tạo và
+                                trí tưởng tượng của
+                                học
+                                sinh bằng cách tạo thêm nhiều sự kiện thú vị cho các bé. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+<footer style="background-color: #BFE0C2; padding-top: 30px;">
+    <div class="row container" style="border-bottom: solid #EBF8E9 1px; min-width: 100%;">
+        <div class="col-lg-7 offset-lg-1 col-12">
+            <img src="./Image/logo2.png"> <span
+                style="font-size: 40px; font-weight: 400; font-family: 'Paytone One'; margin-top: 10px; color:#2A6049">nhặt</span>
+            <br>
+            <h3>Kiến thức và hành động</h3>
+
+        </div>
+        <div class="col-lg-4 col-12">
+            <p
+                style="font-family: 'Livvic'; font-style:italic; color: rgba(42, 96, 73, 0.6);font-size: 24px; position:absolute;">
+                Tải app
+                trên:</p>
+            <img src="./Image/taiapp.png" style="margin-top: 5px;">
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <p class="col-lg-4 mt-3" style="font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px; color: rgba(42, 96, 73, 0.59);">© 2023 nhặt app. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+<script>
+    //khai báo biến slideIndex đại diện cho slide hiện tại
+    var slideIndex;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex].style.display = "block";
+        dots[slideIndex].className += " active";
+        //chuyển đến slide tiếp theo
+        slideIndex++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (slideIndex > slides.length - 1) {
+            slideIndex = 0
+        }
+        //tự động chuyển đổi slide sau 5s
+        setTimeout(showSlides, 5000);
+    }
+    //mặc định hiển thị slide đầu tiên 
+    showSlides(slideIndex = 0);
+
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+</script>
+
+</html>

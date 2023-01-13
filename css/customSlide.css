@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .sliderX {
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .slidesX {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+  }
+  .slidesX::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slidesX::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .slidesX::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slidesX > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 600px;
+    height: 595px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background: rgba(233, 230, 223, 0.3);
+box-shadow: 2px 10px 20px rgba(38, 122, 77, 0.5);
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;    
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    font-size: 100px;
+    margin-bottom: 50px;
+  }
+.sliderX span{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2A6049;
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    
+}
+.sliderX h3{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+color: #2A6049;
+z-index: 1;
+    position: absolute;
+    top: 61%;
+}
+.sliderX p{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2A6049;
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+}
+  .author-info {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .author-info a {
+    color: white;
+  }
+  .sliderX img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310px;
+  }
+  
+  .sliderX > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+  .sliderX > a:active {
+    top: 1px;
+  }
+  .sliderX > a:focus {
+    background: #000;
+  }
+
+
+  /* ------------------------------ */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .sliderY {
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .slidesY {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+  }
+  .slidesY::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slidesY::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .slidesY::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slidesY > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 695px;
+    height: 595px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background: rgba(233, 230, 223, 0.3);
+box-shadow: 2px 10px 20px rgba(38, 122, 77, 0.5);
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;    
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    font-size: 100px;
+    margin-bottom: 50px;
+  }
+.sliderY span{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2A6049;
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    
+}
+.sliderY h3{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+color: #2A6049;
+z-index: 1;
+    position: absolute;
+    top: 55%;
+}
+.sliderY p{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2A6049;
+    z-index: 1;
+    position: absolute;
+    top: 75%;
+}
+  .author-info {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .author-info a {
+    color: white;
+  }
+  .sliderY img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310px;
+  }
+  
+  .sliderY > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+  .sliderY > a:active {
+    top: 1px;
+  }
+  .sliderY > a:focus {
+    background: #000;
+  }
